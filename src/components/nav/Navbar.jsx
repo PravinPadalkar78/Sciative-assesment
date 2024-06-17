@@ -3,7 +3,7 @@ import React from 'react'
 import { useState } from "react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Dialog, DialogPanel } from "@headlessui/react";
-
+import Image from "next/image";
 const navigation = [
   { name: "Home", href: "#" },
   { name: "Programs", href: "#" },
@@ -23,7 +23,7 @@ export default function Navbar() {
       <div className="flex lg:flex-1">
         <a href="#" className="-m-1.5 p-1.5">
           <span className="sr-only">Your Company</span>
-          <img className="w-40 h-10" src="/logo.svg" alt="" />
+          <Image className="w-40 h-10" src="/logo.svg" alt="" />
         </a>
       </div>
       <div className="flex lg:hidden">

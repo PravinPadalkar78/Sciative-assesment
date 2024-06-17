@@ -1,6 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import { FaCommentAlt } from "react-icons/fa";
+import Image from "next/image";
 export default function Comments() {
   const [comments, setComments] = useState([]);
 
@@ -45,7 +46,7 @@ export default function Comments() {
           What Our Student Says!
         </h1>
         <div className="flex flex-wrap section">
-          <img
+          <Image
             src="/potraite.avif "
             className="flex border-2 border-sky-500 lg:my-20 p-3 w-80 h-80"
             alt="image"
