@@ -5,8 +5,9 @@ import Navbar from "@/components/nav/Navbar";
 import Process from "@/components/cards/Process.jsx";
 import Card from "@/components/cards/Card.jsx";
 import Reviews from "@/components/reviews/Reviews.jsx";
-import Courses from "@/components/courses/courses.jsx";
+import Courses from "@/components/courses/Courses.jsx";
 import TableSection from "@/components/table/TableSection";
+import Progress from "@/components/progress/Progress";
 
 export default function Home() {
   return (
@@ -14,8 +15,9 @@ export default function Home() {
       <>
         <Navbar/>
         <Hero/>
+        
         <Courses/>
-     
+        <Progress/>
         <TableSection/>
         <Reviews/>
        

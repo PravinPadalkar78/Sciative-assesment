@@ -2,7 +2,7 @@ import React from "react";
 import { TbPageBreak } from "react-icons/tb";
 export default function Product() {
   return (
-    <div className="flex flex-wrap m-auto pt-2 w-9/12">
+    <div className="flex flex-wrap mx-auto pt-2 w-9/12">
       <div className="bg-white shadow-md mx-auto rounded-lg w-full max-w-sm overflow-hidden">
         <div className="relative">
           <img
@@ -27,7 +27,7 @@ export default function Product() {
           </p>
           <div className="flex justify-between">
             <div className="flex items-center space-x-2">
-              <img src="/person.jpg" alt="Icon 1" className="w-6 h-6" />
+              <img src="/person.jpg " alt="Icon 1" className="rounded-full w-6 h-6" />
               <span className="text-gray-600">By Pravin Padalkar</span>
             </div>
             <div className="flex items-center space-x-2">
@@ -64,7 +64,7 @@ export default function Product() {
           </p>
           <div className="flex justify-between">
             <div className="flex items-center space-x-2">
-              <img src="/person.jpg" alt="Icon 1" className="w-6 h-6" />
+              <img src="/person.jpg" alt="Icon 1" className="rounded-full w-6 h-6" />
               <span className="text-gray-600">By Pravin Padalkar</span>
             </div>
             <div className="flex items-center space-x-2">
